@@ -1,9 +1,9 @@
 # Soldi-Blockchain-Explorer
-Block explorer for Karbowanec CryptoNote based cryptocurrency.
+Block explorer for Soldi CryptoNote based cryptocurrency.
 
 #### Installation
 
-1) It takes data from daemon soldid. It should be accessible from the Internet. Run karbowanecd with open port as follows:
+1) It takes data from daemon soldid. It should be accessible from the Internet. Run soldid with open port as follows:
 ```bash
 ./soldid --restricted-rpc --enable-cors=* --enable-blockchain-indexes --rpc-bind-ip=0.0.0.0 --rpc-bind-port=32348
 ```
